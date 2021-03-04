@@ -61,8 +61,8 @@ const find2ndWord = map(words, word => word[1]);
 console.log(results1);
 console.log(findWordLength);
 console.log(find2ndWord); 
-/
-/Test Code
+
+//Test Code
 console.log(assertObjectsEqual(results1, ['t', 'e', 'c', 'a', 'c']));
 console.log(assertObjectsEqual(findWordLength, [5, 4, 3, 6, 6]));
 console.log(assertObjectsEqual(find2ndWord, ['o', 'g', 'd', 'l', 'a']));
