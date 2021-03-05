@@ -6,13 +6,13 @@ const assertEqual = function(actual, expected) {
   }
 };
 
-const head = function (arr) {
-  if (arr === []) { 
-    return undefined; 
+const head = function(arr) {
+  if (arr === []) {
+    return undefined;
   } else {
     console.log(arr[0]);
-    return arr[0]; 
+    return arr[0];
   }
-}; 
+};
 assertEqual(head([5,6,7]), 5);
 assertEqual(head(["Hello", "Lighthouse", "Labs"]), "Hello");
